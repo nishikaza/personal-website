@@ -1,7 +1,8 @@
 import React, { Component } from "react"
 import HeaderItem from "./headerItem"
 
-const items = ["about", "experience", "contact"]
+const items = ["Home"]
+//const items = ["Home" , "About", "Experience", "Contact"]
 
 class Header extends Component {
   state = {}
@@ -21,13 +22,5 @@ class Header extends Component {
     )
   }
 }
-
-// Header.propTypes = {
-//   siteTitle: PropTypes.string,
-// }
-
-// Header.defaultProps = {
-//   siteTitle: ``,
-// }
 
 export default Header

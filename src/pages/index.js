@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import "bootstrap/dist/css/bootstrap.css"
 import Header from "../components/header"
 
 const IndexPage = () => (
   <div>
     <Header></Header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
     <h1>Test</h1>
   </div>
   // <Layout>

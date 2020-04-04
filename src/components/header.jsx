@@ -18,7 +18,7 @@ class Header extends Component {
           <Navbar.Brand href="/">nkaza</Navbar.Brand>
           <Nav>
             {this.state.navbarItems.map(item => (
-              <Nav.Link key={item} href={"/" + item}>
+              <Nav.Link key={item} href={"#" + item}>
                 {item}
               </Nav.Link>
             ))}

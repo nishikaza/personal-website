@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 
 const platforms = [
-  ["LinkedIn.", "https://www.linkedin.com/in/nishikaza"],
-  ["Github.", "https://wwww.github.com/nishikaza"],
-  ["Instagram.", "https://www.instagram.com/nishikaza_"],
+  ["LinkedIn.", "https://www.linkedin.com/in/nishikaza", "#2867B2"],
+  ["Github.", "https://wwww.github.com/nishikaza", "#6CC644"],
+  ["Instagram.", "https://www.instagram.com/nishikaza_", "#E1306C"],
 ]
 class Contact extends Component {
   state = {}
@@ -24,7 +24,7 @@ class Contact extends Component {
         {platforms.map(platform => (
           <h2>
             <a
-              style={{ color: "white" }}
+              style={{ color: platform[2] }}
               target="_blank"
               rel="noopener noreferrer"
               href={platform[1]}

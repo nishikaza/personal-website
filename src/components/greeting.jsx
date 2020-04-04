@@ -1,12 +1,13 @@
 import React, { Component } from "react"
 import { Jumbotron, Button } from "react-bootstrap"
+import bgPic from "../images/bgpic.png"
 
 class Greeting extends Component {
   state = {}
   jumbotronStyle = {
     backgroundColor: "#000839",
     color: "white",
-    backgroundImage: "url(../images/bgpic.png)",
+    backgroundImage: bgPic,
     padding: 150,
   }
   render() {

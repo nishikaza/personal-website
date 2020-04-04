@@ -11,9 +11,9 @@ const IndexPage = () => (
   <div style={{ backgroundColor: "#000839" }}>
     <Header />
     <Greeting />
-    <Experience />
-    <Education />
-    <Contact />
+    <Experience id="Experience" />
+    <Education id="Education" />
+    <Contact id="Contact" />
   </div>
 )
 

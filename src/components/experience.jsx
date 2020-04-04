@@ -8,6 +8,10 @@ import {
   summer2018Description,
   summer2017Description,
 } from "../text/experienceText"
+import flexportLogo from "../images/flexport.png"
+import fluentLogo from "../images/fluentui.png"
+import officeLogo from "../images/office.png"
+import microsoftLogo from "../images/microsoft.png"
 
 class Experience extends Component {
   state = {}
@@ -54,7 +58,10 @@ class Experience extends Component {
         <Container>
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>
-              <Image src="../images/flexport.png" />
+              <Image
+                style={{ width: 300, borderRadius: "3%" }}
+                src={flexportLogo}
+              />
             </Col>
             <Col sm={8}>
               {this.createExperienceSummary(
@@ -70,7 +77,10 @@ class Experience extends Component {
 
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>
-              <Image src="../fluentui.png"></Image>
+              <Image
+                style={{ width: 300, borderRadius: "3%" }}
+                src={fluentLogo}
+              />
             </Col>
             <Col sm={8}>
               {this.createExperienceSummary(
@@ -86,7 +96,10 @@ class Experience extends Component {
 
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>
-              <Image src="../images/office.png"></Image>
+              <Image
+                style={{ width: 300, borderRadius: "3%" }}
+                src={officeLogo}
+              />
             </Col>
             <Col sm={8}>
               {this.createExperienceSummary(
@@ -101,7 +114,10 @@ class Experience extends Component {
           </Row>
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>
-              <Image src="../microsoft.png"></Image>
+              <Image
+                style={{ width: 300, borderRadius: "3%" }}
+                src={microsoftLogo}
+              />
             </Col>
             <Col sm={8}>
               {this.createExperienceSummary(

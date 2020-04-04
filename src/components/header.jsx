@@ -1,23 +1,28 @@
 import React, { Component } from "react"
-import HeaderItem from "./headerItem"
+import { Nav, Navbar } from "react-bootstrap"
 
-const items = ["Home"]
-//const items = ["Home" , "About", "Experience", "Contact"]
+const navbarItems = ["About", "Experience", "Contact"]
 
 class Header extends Component {
-  state = {}
+  state = { navbarItems }
 
   render() {
     return (
       <div
         style={{
-          background: "midnightblue",
           marginBottom: `1.45rem`,
         }}
       >
-        {items.map(item => (
-          <HeaderItem key={item} itemName={item} />
-        ))}
+        <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="/">nkaza</Navbar.Brand>
+          <Nav>
+            {this.state.navbarItems.map(item => (
+              <Nav.Link key={item} href={"/" + item}>
+                {item}
+              </Nav.Link>
+            ))}
+          </Nav>
+        </Navbar>
       </div>
     )
   }

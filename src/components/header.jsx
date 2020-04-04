@@ -6,11 +6,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          marginBottom: `1.45rem`,
-        }}
-      >
+      <div>
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="/">nkaza</Navbar.Brand>
           <Nav>

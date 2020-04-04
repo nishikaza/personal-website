@@ -1,10 +1,8 @@
 import React, { Component } from "react"
 import { Nav, Navbar } from "react-bootstrap"
 
-const navbarItems = ["About", "Experience", "Contact"]
-
 class Header extends Component {
-  state = { navbarItems }
+  state = { navbarItems: ["About", "Experience", "Contact"] }
 
   render() {
     return (

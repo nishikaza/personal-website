@@ -4,10 +4,17 @@ import { Nav, Navbar } from "react-bootstrap"
 class Header extends Component {
   state = { navbarItems: ["About", "Experience", "Contact"] }
 
+  navbarStyle = {
+    backgroundColor: "#000839",
+  }
+
+  navItemStyle = {
+    color: "white",
+  }
   render() {
     return (
       <div>
-        <Navbar bg="dark" variant="dark">
+        <Navbar variant="dark" fixed="top" style={this.navbarStyle}>
           <Navbar.Brand href="/">nkaza</Navbar.Brand>
           <Nav>
             {this.state.navbarItems.map(item => (

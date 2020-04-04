@@ -24,7 +24,7 @@ class Experience extends Component {
       <div>
         <h4>
           <a
-            style={{ color: "midnightblue" }}
+            style={{ color: "#00a8cc" }}
             target="_blank"
             rel="noopener noreferrer"
             href={website}
@@ -43,8 +43,14 @@ class Experience extends Component {
 
   render() {
     return (
-      <div style={{ margin: "3em" }}>
-        <h1>Experience</h1>
+      <div
+        style={{
+          backgroundColor: "#000839",
+          color: "white",
+          margin: "3em",
+        }}
+      >
+        <h1 style={{ color: "#ffa41b" }}>Experience</h1>
         <Container>
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>

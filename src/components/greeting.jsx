@@ -4,7 +4,7 @@ import { Jumbotron, Button } from "react-bootstrap"
 class Greeting extends Component {
   state = {}
   jumbotronStyle = {
-    backgroundColor: "teal",
+    backgroundColor: "#000839",
     color: "white",
     backgroundImage: "url(../images/bgpic.png)",
     padding: 150,
@@ -14,11 +14,11 @@ class Greeting extends Component {
       <div>
         <Jumbotron fluid style={this.jumbotronStyle}>
           <div>
-            <h1>Welcome to my site!</h1>
-            <p>
-              My name is Nishi and I am a second-year undergrad at UC Berkeley.
-              Welcome to my life!
-            </p>
+            <p>👋Hey, my name is</p>
+            <h1>Nishi Kaza.</h1>
+            <h1 style={{ color: "#00a8cc" }}>
+              I am a student and software engineer.
+            </h1>
           </div>
           <Button variant="outline-light">Learn more</Button>
         </Jumbotron>

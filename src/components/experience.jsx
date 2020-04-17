@@ -3,12 +3,10 @@ import { Container, Col, Row, Image } from "react-bootstrap"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import {
-  summer2020Description,
   summer2019Description,
   summer2018Description,
   summer2017Description,
 } from "../text/experienceText"
-import flexportLogo from "../images/flexport.png"
 import fluentLogo from "../images/fluentui.png"
 import officeLogo from "../images/office.png"
 import microsoftLogo from "../images/microsoft.png"
@@ -56,25 +54,6 @@ class Experience extends Component {
       >
         <h1 style={{ color: "#ffa41b" }}>Experience</h1>
         <Container>
-          <Row style={{ margin: "1em" }}>
-            <Col sm={4}>
-              <Image
-                style={{ width: 300, borderRadius: "3%" }}
-                src={flexportLogo}
-              />
-            </Col>
-            <Col sm={8}>
-              {this.createExperienceSummary(
-                "Flexport 🚛",
-                "https://www.flexport.com",
-                "Software Engineer Intern",
-                "Summer 2020",
-                "San Francisco, California",
-                summer2020Description
-              )}
-            </Col>
-          </Row>
-
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>
               <Image

@@ -1,6 +1,3 @@
-export const summer2020Description = `Before the COVID-19 pandemic, I was planning to work in SF at Flexport. I am incredibly intrigued by the company's mission to digitize global trade. 
-This fundamentally combines my degrees in Business and EECS and I am now excited to contribute remotely!`
-
 export const summer2019Description = `
 I created a live code editor and transpiler for real-time component rendering on documentation website for Microsoft’s open-source front-end framework, Fluent UI. The goal of this
 project was to provide an end-to-end code sandbox with full typings for developers to use in-browser. To accomplish this, I managed relationships with PMs, designers, and the core engineering team.

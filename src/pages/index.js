@@ -6,11 +6,13 @@ import Greeting from "../components/greeting"
 import Experience from "../components/experience"
 import Education from "../components/education"
 import Contact from "../components/contact"
+import About from "../components/about"
 
 const IndexPage = () => (
-  <div style={{ backgroundColor: "#000839" }}>
+  <div style={{ backgroundColor: "#222831" }}>
     <Header />
     <Greeting />
+    <About />
     <Experience id="Experience" />
     <Education id="Education" />
     <Contact id="Contact" />

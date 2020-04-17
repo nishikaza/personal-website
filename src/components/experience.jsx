@@ -47,12 +47,12 @@ class Experience extends Component {
     return (
       <div
         style={{
-          backgroundColor: "#000839",
+          backgroundColor: "#222831",
           color: "white",
-          margin: "3em",
+          margin: "15em",
         }}
       >
-        <h1 style={{ color: "#ffa41b" }}>Experience</h1>
+        <h1 style={{ color: "#00adb5" }}>Experience</h1>
         <Container>
           <Row style={{ margin: "1em" }}>
             <Col sm={4}>

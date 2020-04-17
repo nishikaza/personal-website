@@ -5,7 +5,7 @@ class Header extends Component {
   state = { navbarItems: ["About", "Experience", "Contact"] }
 
   navbarStyle = {
-    backgroundColor: "#000839",
+    backgroundColor: "#222831",
   }
 
   navItemStyle = {

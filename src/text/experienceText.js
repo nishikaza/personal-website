@@ -11,3 +11,6 @@ export const summer2017Description = `
 I developed an Accessibility Proficiency Dashboard, which encourages users to create more accessible content within Microsoft Office through gamification and data insights.
 Making sure technology is accessible by all individuals is one of my passions and is what drew me to software engineering in the first place. This is a topic I can't talk about enough.
 `
+export const aboutMe = `
+Hey! My name is Nishi and I am an aspiring software engineer/product manager. At heart, I am a creator. From crafting solutions to challenging business cases through Berkeley Consulting to spending late nights on projects for my degree at UC Berkeley, problem solving lies at the core of my personality.
+`

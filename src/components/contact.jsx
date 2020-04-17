@@ -11,9 +11,9 @@ class Contact extends Component {
     return (
       <div
         style={{
-          backgroundColor: "#000839",
+          backgroundColor: "#222831",
           color: "white",
-          margin: "3em",
+          margin: "15em",
         }}
       >
         <h1 style={{ color: "#ffa41b" }}>Get in touch</h1>

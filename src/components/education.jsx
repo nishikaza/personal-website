@@ -7,9 +7,9 @@ class Education extends Component {
   render() {
     return (
       <div
-        style={{ backgroundColor: "#000839", color: "white", margin: "3em" }}
+        style={{ backgroundColor: "#222831", color: "white", margin: "15em" }}
       >
-        <h1 style={{ color: "#ffa41b" }}>Education</h1>
+        <h1 style={{ color: "#00adb5" }}>Education</h1>
         <Container>
           <Row style={{ margin: "1em" }}>
             <Col sm={6}>
